@@ -80,4 +80,4 @@ app.post('/upload', (req, res, next) => {
     req.pipe(bb)
 })
 
-app.listen(8080, () => console.log('listening'))
+app.listen(8080, () => console.log('Listening on port 8080'))
